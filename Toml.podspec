@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = 'Toml'
-  s.version      = '0.4.0'
+  s.version      = '0.4.1'
   s.summary      = 'Swift package for parsing TOML documents'
   s.description  = s.summary + '.'
   s.homepage     = 'https://github.com/jdfergason/swift-toml'
