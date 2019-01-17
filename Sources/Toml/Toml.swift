@@ -43,7 +43,7 @@ protocol SetValueProtocol {
     Data parsed from a TOML document
 */
 public class Toml: CustomStringConvertible, SetValueProtocol {
-    private var data: [Path: Any]
+    public private(set) var data: [Path: Any]
     private(set) public var keyNames: Set<Path>
     private(set) public var prefixPath: Path?
     private(set) public var tableNames: Set<Path>
